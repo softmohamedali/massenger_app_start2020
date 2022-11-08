@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    >
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_gravity="end">
+        <TextView
+            android:id="@+id/tv_data_massagelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:55 pm"
+            android:textSize="10sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_gravity="end|bottom"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/tv_masg_massagelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hi mohamed im nelly ?"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"/>
+
+    </FrameLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="10dp"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_gravity="end"-->
+<!--        />-->
+
+</FrameLayout>
